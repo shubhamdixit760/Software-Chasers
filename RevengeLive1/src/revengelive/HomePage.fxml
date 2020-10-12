@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" layoutX="300.0" layoutY="100.0" prefHeight="603.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="revengelive.HomePageController">
+   <children>
+      <Label fx:id="Logo" alignment="CENTER" layoutX="59.0" layoutY="28.0" prefHeight="194.0" prefWidth="500.0" text="Revenge Live" textFill="#1c11ee">
+         <font>
+            <Font name="Times New Roman Italic" size="54.0" />
+         </font>
+      </Label>
+      <Button fx:id="login" layoutX="245.0" layoutY="244.0" mnemonicParsing="false" onAction="#loginAction" prefHeight="25.0" prefWidth="80.0" text="Login">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="register" layoutX="243.0" layoutY="317.0" mnemonicParsing="false" onAction="#registerAction" prefHeight="25.0" prefWidth="80.0" text="Register">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
