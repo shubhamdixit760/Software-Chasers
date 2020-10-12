@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.embed.swing.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="613.0" prefWidth="646.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <ImageView fitHeight="49.0" fitWidth="54.0" layoutX="20.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Pictures/Camera%20Roll/IMG_20190429_220456%20(2).jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="67.0" layoutY="21.0" text="shubham503">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="67.0" layoutY="48.0" text="Shubham dixit">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="428.0" layoutY="21.0" />
+      <Label layoutX="304.0" layoutY="24.0" text="Search channels">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="580.0" layoutY="21.0" mnemonicParsing="false" text="Search" />
+      <ScrollPane hbarPolicy="ALWAYS" layoutX="382.0" layoutY="85.0" prefHeight="475.0" prefWidth="246.0" vbarPolicy="ALWAYS">
+         <content>
+            <ImageView fitHeight="41.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
