@@ -8,15 +8,38 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane layoutX="500.0" layoutY="300.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="272.0" prefWidth="303.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="revengelive.LoginController">
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="revengelive.LoginController">
    <children>
-      <Button fx:id="login" layoutX="68.0" layoutY="165.0" mnemonicParsing="false" onAction="#loginResponse" text="Login" />
-      <TextField layoutX="14.0" layoutY="52.0" promptText="UserName" />
-      <Label layoutX="12.0" layoutY="14.0" prefHeight="25.0" prefWidth="272.0" text="Status" textFill="#eb4a05">
+      <Label layoutX="82.0" layoutY="98.0" prefHeight="41.0" prefWidth="107.0" text="    Username">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <PasswordField layoutX="14.0" layoutY="115.0" promptText="Password" />
+      <Label layoutX="89.0" layoutY="158.0" prefHeight="28.0" prefWidth="115.0" text="  Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtusername" layoutX="242.0" layoutY="103.0" prefHeight="41.0" prefWidth="246.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="txtpassword" layoutX="242.0" layoutY="158.0" prefHeight="41.0" prefWidth="246.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <Label contentDisplay="CENTER" layoutX="209.0" layoutY="23.0" prefHeight="50.0" prefWidth="218.0" text="         Log In ">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="login" layoutX="268.0" layoutY="238.0" mnemonicParsing="false" onAction="#loginResponse" prefHeight="41.0" prefWidth="101.0" text="LogIn">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
